@@ -1,0 +1,183 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+#container{
+	background-color: #082134;
+	padding: 0 10px 5px 15px;
+	width: 960px;
+	margin: 0 auto;
+	font-family: arial, helvetica, sans-serif;
+}
+
+
+#header{
+	display: inline-block;
+	width: 910px;
+	padding:25px;
+}
+#header span{
+	color: #2795E4;
+}
+#header h1 {
+	width: 39%;
+	display: inline-block;
+	vertical-align: top; 
+	color: #fff;
+}
+
+
+#nav{
+	display: inline-block;
+	vertical-align: bottom;
+	background-color: #082134;
+	width: 59%;
+	margin-left: 10px;
+	text-align: right;
+}
+#nav li{
+	display: inline-block;
+	color: white;
+	padding: 0 25px;
+}
+#nav li a{
+	text-decoration: none;
+	color: #fff;
+	}
+.first_nav {
+	color: #2f5f81;
+}
+
+
+#content{
+	background-color: #fff;
+	width: 920px;
+	padding: 20px;
+}
+#content_img{
+	width: 920px;
+	height: 375px;
+	margin-bottom: 20px;
+}
+
+
+#info_div{
+	width: 920px;
+}
+.info{
+	width: 31.5%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #1b6aa6;
+}
+#info_middle{
+	margin: 0 20px;
+}
+.info img{
+	height: 25px;
+	width: 25px;
+	padding: 15px 10px 0 10px;
+}
+.info h2{
+	color: #fff;
+	background-color: #1b6aa6;
+	padding-top: 20px 0;
+}
+.info p {
+	padding: 20px;
+	color: #fff;
+	font-size: .85em;
+}
+.info button{
+	padding: 10px 25px;
+	margin: 20px;
+	background-color: #2696de;
+	border-radius: 4px;
+	border: none;
+	width: 40%;
+}
+.info button a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+#bottom_left{
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: top;
+	width: 69%;
+}
+#bottom_left h2{
+	margin: 25px 0 10px 0;
+}
+#bottom_left img{
+	display: inline-block;
+	width: 43%;
+	height: 175px;
+	vertical-align: top;
+}
+#bottom_left p{
+	margin-left: 30px;
+	font-size: .85em;
+	padding-bottom: 12px;
+}
+#bottom_left_p{
+	display: inline-block;
+	width: 55%;
+}
+#bottom_left form{
+	background-color: #fff;
+	color: #6e9b73;
+	margin-left: 30px;
+	margin-top: 15px;
+	border: none;
+	font-size: 1em;
+}
+
+
+#bottom_right{
+	display: inline-block;
+	width: 29%;
+}
+#bottom_right h2{
+	margin: 25px 0 10px 0;
+}
+#bottom_right blockquote{
+	position: relative;
+	background-color: #dbeeff;
+	padding: 20px 20px 40px 15px;
+}
+#bottom_right blockquote:after{
+	  content: ' ';
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  left: 30px;
+	  top: 130px;
+	  border: 15px solid;
+	  border-color: #dbeeff;
+}
+
+
+footer{
+	width: 100%;
+	background-color: #dbeeff; 
+	margin-top: 2px;
+}
+footer ul{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	padding:15px;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #709bbb;
+
+}
+
+
